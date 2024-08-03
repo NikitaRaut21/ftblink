@@ -20,7 +20,6 @@ function Home() {
               target:"",
                slug:"" 
             })
-
         }
         else{
             toast.error(response.data.message)

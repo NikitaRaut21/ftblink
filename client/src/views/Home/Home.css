@@ -14,20 +14,21 @@
 }
 .url-form{
     display: block;
-    margin: 0 auto;
+    margin: 8px auto;
     width: 600px;
     padding: 10px;
-    background-color: rgb(230, 119, 236);
+    background-color: #e181e7;
 
 }
 .btn-link{
-  padding:5px 15px ;
+    display: block;
+    margin: 10px auto;
+  padding:8px 15px ;
   border-radius: 50px;
-  border: none;
   cursor: pointer;
+  border: none;
   color: white;
-  margin: auto 250px;
-  background-color: #97128c;
+background-color: #97128c;
 
 }
 .btn-link:hover{
