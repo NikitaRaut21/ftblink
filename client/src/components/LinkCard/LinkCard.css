@@ -1,0 +1,39 @@
+.link-card{
+    display: block;
+background-color: #ffff;
+    margin: 20px auto;
+ padding: 8px;
+    border-radius: 7px;
+   box-shadow: 2px 0 5px 4px rgba(0, 0, 0, 0.4);
+   position: relative;
+  
+}
+.link-card-title{
+    margin: 0;
+}
+.link-card-title-slug{
+
+
+}
+.link-card-title-cre{
+   
+}
+.link-card-title-views{
+    position: absolute;
+    margin: 0;
+    top: 10px;
+    right: 10px;
+  
+}
+.link-card-title-target{
+    text-decoration: none;
+    font-size: 18px;
+}
+.link-card-title-cre{
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+   
+   
+}

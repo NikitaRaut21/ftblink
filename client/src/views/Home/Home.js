@@ -101,6 +101,7 @@ function Home() {
             const {title,target,slug,views,createdAt}=links
         return <LinkCard
         key={i}
+        title={title}
         target={target}
         slug={slug}
         views={views}

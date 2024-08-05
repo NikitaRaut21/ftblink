@@ -5,11 +5,13 @@
     justify-content: space-around;
 }
 .my-link{
- text-align: center;
+max-height: 500px;
  margin: 0;
   width: 600px;
     padding: 10px;
     background-color: #e181e7;
+    overflow-y: scroll;
+   
 }
 .title-heading{
     text-align: center;
