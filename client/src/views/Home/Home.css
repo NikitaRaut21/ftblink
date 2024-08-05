@@ -40,9 +40,11 @@ max-height: 500px;
 
 }
 .btn-link{
+    
     display: block;
     margin: 10px auto;
   padding:8px 15px ;
+ text-decoration: none;
   border-radius: 50px;
   cursor: pointer;
   border: none;

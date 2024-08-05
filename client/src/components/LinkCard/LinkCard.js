@@ -1,14 +1,30 @@
 import React from 'react'
 import "./LinkCard.css"
+import imgview from "./views.png"
 
 function LinkCard({title,target,slug,views,createdAt}) {
+  const shortUrl=`${process.env.REACT_APP_API_KEY}/${slug}`
 
   return (
     <div className='link-card'> 
-  <h3 className='link-card-title'>{title}</h3>
-  <p className='link-card-title-slug'>short url:{slug}</p>
-   <a className='link-card-title-target' href={target}>Target url:{target}</a>
-   <p className='link-card-title-views'>Views:{views}</p> 
+  <h3 className='link-card-title'>{title ||"No title"} </h3>
+
+   <a href={ shortUrl} target="_blank"  className='link-card-title-target' > 
+   <span className='shorturl'> shorturl: </span>
+   { shortUrl}
+   </a>
+  
+    <a href={target} target="_blank"   className='link-card-title-target'>
+    <span className='Target'>Targeturl: </span>
+    {target.substring(0,50)}{target.length>50?"...":null}
+
+ 
+    </a>
+  
+   <span className='link-card-title-views'><img src={imgview} alt='view-img' className='view-img'/> {views}</span>
+   <span className='link-card-views-text'>
+    {views > 0 ? `${views} people visit this url` : 'share this link'}
+   </span>
    <p  className='link-card-title-cre'>{new Date (createdAt).toLocaleString()}</p>
     </div>
   )

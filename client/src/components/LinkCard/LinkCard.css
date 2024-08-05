@@ -12,22 +12,43 @@ background-color: #ffff;
     margin: 0;
 }
 .link-card-title-slug{
+display: block;
 
-
+}
+.Target{
+    color:chocolate;
+    margin-bottom: 20px;
+    
 }
 .link-card-title-cre{
    
+}
+.shorturl{
+color: brown;
 }
 .link-card-title-views{
     position: absolute;
     margin: 0;
     top: 10px;
     right: 10px;
-  
 }
+.view-img{
+    position: absolute;
+    height: 20px;
+    right: 18px;
+}
+.link-card-views-text{
+    position: absolute;
+    margin: 0;
+    top: 30px;
+    right: 10px;
+}
+
 .link-card-title-target{
     text-decoration: none;
     font-size: 18px;
+    display: block;
+    margin-bottom: 7px;
 }
 .link-card-title-cre{
     margin: 0;

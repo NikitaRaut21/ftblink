@@ -86,7 +86,7 @@ function Home() {
          }}
         
          />
-      <button type='button'
+      <button type='button' style={{textDecoration : 'none'}}
       className='btn-link'
       onClick={generateLink}>
     shorten
@@ -95,7 +95,7 @@ function Home() {
       </form>
       </div>
       <div className='my-link'>
-        <h2>My links</h2>
+        <h2 className='my-link-title'>My links</h2>
         {
           userLinks.map((links,i)=>{
             const {title,target,slug,views,createdAt}=links
