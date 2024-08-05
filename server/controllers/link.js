@@ -29,5 +29,13 @@ link.views=link.views+1;
 await link.save();
 res.redirect(link.target)
 }
+const getallLink =async(req,res)=>{
+    const links= await Link.find()
+    res.json({
+        success:true,
+        message:"all link fetch successfully",
+        data:links
+    })
+}
 
-export{PostLink,getSlugRedirect };
+export{PostLink,getSlugRedirect ,getallLink};

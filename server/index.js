@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 dotenv.config();
-import { PostLink,getSlugRedirect } from './controllers/link.js';
+import { PostLink,getSlugRedirect ,getallLink } from './controllers/link.js';
  
 const  app = express();
 app.use(express.json());
@@ -26,7 +26,7 @@ app.get("/health",(req,res)=>{
 })
 
 app.post("/link", PostLink)
-
+ app.get("/links",getallLink)
 app.get("/:slug",getSlugRedirect)
 
 const PORT = process.env.PORT || 5000;
