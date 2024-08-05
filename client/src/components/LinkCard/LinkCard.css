@@ -10,6 +10,8 @@ background-color: #ffff;
 }
 .link-card-title{
     margin: 0;
+    font-size: 20px;
+
 }
 .link-card-title-slug{
 display: block;
@@ -20,9 +22,7 @@ display: block;
     margin-bottom: 20px;
     
 }
-.link-card-title-cre{
-   
-}
+
 .shorturl{
 color: brown;
 }
@@ -46,7 +46,7 @@ color: brown;
 
 .link-card-title-target{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     display: block;
     margin-bottom: 7px;
 }

@@ -39,6 +39,10 @@ max-height: 500px;
     background-color: #e181e7;
 
 }
+.my-link-title{
+    text-align: center;
+    font-size: 20px;
+}
 .btn-link{
     
     display: block;
