@@ -1,5 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Fredoka:wght@300..700&family=Poppins:wght@400;500&display=swap');
+.main-link-container{
+    display: flex;
+    justify-content: space-around;
+}
+.my-link{
+ text-align: center;
+ margin: 0;
+  width: 600px;
+    padding: 10px;
+    background-color: #e181e7;
+}
 .title-heading{
     text-align: center;
+    font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 .title{
     text-align: center;
@@ -13,8 +30,8 @@
    border: none;
 }
 .url-form{
-    display: block;
-    margin: 8px auto;
+   
+ 
     width: 600px;
     padding: 10px;
     background-color: #e181e7;

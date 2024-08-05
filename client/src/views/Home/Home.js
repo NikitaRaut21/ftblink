@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import "./Home.css"
 import toast,{Toaster} from'react-hot-toast';
 
-
 import axios from 'axios';
 
 function Home() {
@@ -12,6 +11,10 @@ function Home() {
         slug:""
     })
     const generateLink= async(req,res)=>{
+      if(!linkData.title ||!linkData.slug ||!linkData.target){
+        toast.error("please enter all details")
+        return
+      }
         const response =await axios.post(`${process.env.REACT_APP_API_KEY}/link`,linkData)
         if (response.data.success){
             toast.success("Link generated successfully");
@@ -28,8 +31,10 @@ function Home() {
   return (
 
     <div>
-        <h1 className='title-heading'>Shorter URL!</h1>
-      <h1 className='title'>do not waste time to long links...!</h1>
+        <h1 className='title-heading title-head'>Shorter URL!</h1>
+      <h1 className='title title-ft'>do not waste time to long links...!</h1>
+      <div className='main-link-container'>
+      <div className='link-container'>
       <form className='url-form'>
         <input
          type='text'
@@ -76,6 +81,11 @@ function Home() {
       </button>
         
       </form>
+      </div>
+      <div className='my-link'>
+        <h2>My links</h2>
+      </div>
+      </div>
       <Toaster/>
     </div>
   )
