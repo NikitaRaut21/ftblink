@@ -13,7 +13,9 @@
   .title{
     text-align: center;
   }
-  
+  .inputurl{
+    box-shadow:1px 3px 10px 0 rgba(0,0,0, 0.2) ;
+  }
 .input{
     display: block;
     margin: 7px auto;

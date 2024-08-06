@@ -4,6 +4,7 @@ import './../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import{ Link} from 'react-router-dom'
 import axios from 'axios'
 import toast,{Toaster} from 'react-hot-toast'
+import Navbar from '../../components/Navbar/Navbar'
 
 function SignUp() {
   const [user,setUser]=useState({
@@ -38,12 +39,12 @@ function SignUp() {
   return (
     <>
       <div>
-
+<Navbar/>
         <form className='form-container'>
-          <h1 className='title'>SignUP</h1>
+          <h1 className='title'>SignUp</h1>
           <div className="form-group input">
             <label for="exampleInputEmail1">fullName</label>
-            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter FullName"
+            <input type="email" className="form-control inputurl" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter FullName"
             value={user.fullName} 
             onChange={(e)=>{
               setUser({
@@ -53,9 +54,10 @@ function SignUp() {
             }}/>
 
           </div>
+          
           <div className="form-group input">
             <label for="exampleInputEmail1">Email address</label>
-            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" 
+            <input type="email" className="form-control inputurl" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" 
             value={user.email} 
             onChange={(e)=>{
               setUser({
@@ -68,7 +70,7 @@ function SignUp() {
           
             <div class="form-group input">
               <label for="exampleFormControlSelect1"> select profession</label>
-              <select class="form-control" id="exampleFormControlSelect1"
+              <select class="form-control inputurl" id="exampleFormControlSelect1"
              value={user.profession} 
              onChange={(e)=>{
                setUser({
@@ -88,7 +90,7 @@ function SignUp() {
          
           <div className="form-group input">
             <label for="exampleInputPassword1">Password</label>
-            <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"
+            <input type="password" className="form-control inputurl" id="exampleInputPassword1" placeholder="Password"
             value={user.password} 
             onChange={(e)=>{
               setUser({

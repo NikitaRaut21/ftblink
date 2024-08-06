@@ -3,6 +3,7 @@ import "./Login.css"
 import axios from 'axios'
 import toast, { Toaster } from 'react-hot-toast'
 import { Link } from 'react-router-dom'
+import Navbar from '../../components/Navbar/Navbar'
 
 
 
@@ -13,11 +14,12 @@ function Login() {
 
   const loginNow = async () => {
   
-    const response = await axios.post(`${process.env.REACT_APP_API_URI}/login`, {
+    const response = await axios.post(`${process.env.REACT_APP_API_KEY}/login`, {
       email: email,
       password: password
     })
     
+   
     if (response.data.success) {
       toast.success(response.data.message)
 
@@ -37,19 +39,20 @@ function Login() {
   return (
 
       <div>
+        <Navbar/>
         <form className='form-container'>
           <h1 className='title'>Login</h1>
 
           <div className="form-group input">
             <label For="exampleInputEmail1">Email address</label>
-            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"
+            <input type="email" className="form-control inputurl" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"
               value={email}
               onChange={(e) => setEmail(e.target.value)} />
 
           </div>
           <div className="form-group input">
             <label For="exampleInputPassword1">Password</label>
-            <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"
+            <input type="password" className="form-control inputurl" id="exampleInputPassword1" placeholder="Password"
               value={password}
               onChange={(e) => setPassword(e.target.value)
               } />

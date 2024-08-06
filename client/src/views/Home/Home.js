@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import "./Home.css"
 import toast,{Toaster} from'react-hot-toast';
-
 import axios from 'axios';
 import LinkCard from '../../components/LinkCard/LinkCard';
 import Navbar from './../../components/Navbar/Navbar.js';
+
 
 function Home() {
     const [linkData,setLink]=useState({
@@ -45,6 +45,7 @@ function Home() {
  
     <div>
        <Navbar/>
+       
         <h1 className='title-heading title-head'>Shorter URL!</h1>
       <h1 className='title title-ft'>do not waste time to long links...!</h1>
       <div className='main-link-container'>
@@ -116,7 +117,8 @@ function Home() {
      
       </div>
       </div>
-      <Toaster/>
+    <Toaster/>
+     
     </div>
   )
 }
