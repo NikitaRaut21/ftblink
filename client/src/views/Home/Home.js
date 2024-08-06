@@ -4,6 +4,7 @@ import toast,{Toaster} from'react-hot-toast';
 
 import axios from 'axios';
 import LinkCard from '../../components/LinkCard/LinkCard';
+import Navbar from './../../components/Navbar/Navbar.js';
 
 function Home() {
     const [linkData,setLink]=useState({
@@ -41,13 +42,15 @@ function Home() {
    },[])
 
  return (
-
+ 
     <div>
+       <Navbar/>
         <h1 className='title-heading title-head'>Shorter URL!</h1>
       <h1 className='title title-ft'>do not waste time to long links...!</h1>
       <div className='main-link-container'>
       <div className='link-container'>
       <form className='url-form'>
+        <h3 style={{textAlign:'center'}}>Short url in second !</h3>
         <input
          type='text'
          placeholder='Title'
