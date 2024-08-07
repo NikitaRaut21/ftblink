@@ -3,42 +3,43 @@
 .main-link-container{
     display: flex;
     justify-content: space-around;
+   margin-bottom: 46px;
 }
 .my-link{
 max-height: 500px;
  margin: 0;
   width: 600px;
     padding: 10px;
-    background-color: #e181e7;
+    background-color: #f4c8f7;
     overflow-y: scroll;
+    box-shadow: 0 0 0 2px rgba(0,0,0, 0.5)
    
 }
 .title-heading{
     text-align: center;
-    font-family: "Arimo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+    margin-bottom:-9px ;
  
 }
 .title{
     text-align: center;
+   
     
 }
 .input-url{
     display: block;
    margin: 10px auto;
-   width:450px;
+   width:550px;
    padding: 10px;
    border-radius: 4px;
    border: none;
    box-shadow:1px 3px 10px 0 rgba(0,0,0, 0.2) ;
 }
 .url-form{
+    margin-top: 15px;
     border-radius: 5px;
     width: 600px;
     padding: 10px;
-    background-color: #e181e7;
+    background-color: #f4c8f7;
    
 
 }

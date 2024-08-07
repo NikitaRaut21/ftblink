@@ -4,6 +4,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import axios from 'axios';
 import LinkCard from '../../components/LinkCard/LinkCard';
 import Navbar from './../../components/Navbar/Navbar.js';
+import Footer from './../../components/Footer/Footer.js';
 
 
 function Home() {
@@ -71,7 +72,7 @@ function Home() {
     <div>
       <Navbar />
 
-      <h1 className='title-heading title-head'>Shorter URL!</h1>
+      <h1 className='title-heading title-head'>Shorter URL!</h1><br></br>
       <h1 className='title title-ft'>do not waste time to long links...!</h1>
       <div className='main-link-container'>
         <div className='link-container'>
@@ -131,7 +132,7 @@ function Home() {
         </div>
       </div>
       <Toaster />
-
+<Footer/>
     </div>
   )
 }

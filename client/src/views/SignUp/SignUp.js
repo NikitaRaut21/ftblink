@@ -5,6 +5,7 @@ import{ Link} from 'react-router-dom'
 import axios from 'axios'
 import toast,{Toaster} from 'react-hot-toast'
 import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
 
 function SignUp() {
   const [user,setUser]=useState({
@@ -106,7 +107,7 @@ function SignUp() {
        
       </div>
       <Toaster/>
-  
+  <Footer/>
     </>
   )
 }

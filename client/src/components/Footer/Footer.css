@@ -1,0 +1,35 @@
+.title-footer{
+    text-align: center;
+    font-size: 17px;
+}
+.card-bd{
+    margin-left: 30px;
+}
+.link{
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    color: #0a0a0a;
+}
+.head{
+    display: flex;
+
+}
+.link-dt{
+   margin-left: 80px ;
+}
+.contact {
+    margin: 30px;
+    
+}
+.cnt{
+    justify-content: space-around;
+    font-size: 17px;
+    margin: 40px;
+    text-decoration: none;
+    color: #0a0a0a;
+}
+@media screen and (max-width: 600px){
+    
+}
+

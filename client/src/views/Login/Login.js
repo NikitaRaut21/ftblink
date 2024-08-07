@@ -4,6 +4,7 @@ import axios from 'axios'
 import toast, { Toaster } from 'react-hot-toast'
 import { Link } from 'react-router-dom'
 import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
 
 
 
@@ -62,6 +63,7 @@ function Login() {
           <Link to="/signup" className='auth-link'>Don't have an account? Signup</Link>
         </form>
         <Toaster />
+        <Footer/>
       </div>
      )
 }

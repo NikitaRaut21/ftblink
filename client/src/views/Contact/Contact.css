@@ -1,0 +1,25 @@
+.title-con{
+    text-align: center;
+    margin-left: -8px;
+}
+.map-container{
+    box-shadow:1px 8px 9px 0 rgba(0,0,0, 0.5) ;
+   
+}
+.suggestion{
+    text-align: center;
+}
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+ 
+}
+.contact-details{
+    border: 5px;
+    width: 450px;
+    background-color: rgb(187, 180, 180);
+   margin-left: 100px;
+}
+

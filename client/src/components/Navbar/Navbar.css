@@ -2,9 +2,6 @@
     margin-left:  auto;
     margin-right: 60px;
 }
-.home-logout{
-    position: fixed;
-    top: 23px;
-    right: 10px;
+.logbtn{
     cursor: pointer;
 }
