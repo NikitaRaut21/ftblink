@@ -6,7 +6,7 @@ import map from './map.png'
 
 function Footer() {
   return (
-    <div className='footer'>
+    <div className='footer ft'>
       <div class="card">
         <div className="card-header title-footer">
           🔗Strong connections open doors to new opportunities
