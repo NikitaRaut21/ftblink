@@ -8,7 +8,9 @@
 .card-bd{
     margin-left: 30px;
 }
-
+.quick{
+    height: 25px;
+}
 .link{
     display: block;
     margin: 10px auto;
@@ -48,5 +50,6 @@
   .card{
     margin: 25px;
   }
+ 
 }
 

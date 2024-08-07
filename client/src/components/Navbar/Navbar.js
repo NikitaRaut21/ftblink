@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import linkimg  from './link.png'
-
+import link  from './link.png'
 import './Navbar.css'
 import toast, { Toaster } from 'react-hot-toast'
 
 function Navbar() {
   const [user, setUser] = useState('')
+  const [isOpen,setIsOpen]=useState(false)
 
   const logout = async()=>{
     localStorage.clear()
@@ -15,6 +15,10 @@ function Navbar() {
       window.location.href ="/login"
     },3000)
   }
+  const toggleMenu = ()=>{
+    setIsOpen(!isOpen)
+  }
+ 
   useEffect(() => {
     const currentUser = JSON.parse(localStorage.getItem('currentUser'))
     setUser(currentUser)
@@ -22,14 +26,14 @@ function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg shadow p-3 mb-5 bg-white rounded  ">
-        <a className="navbar-brand" href="#"><img src={linkimg} className='link-img'/>Quick links</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a className="navbar-brand" href="#"><img src={link} className='link-img'/>Quick links</a>
+        <button className="navbar-toggler" onClick={toggleMenu} type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className={`collapse navbar-collapse nav-ham ${isOpen ? 'show' : ''}`} id="navbarNav">
           <ul className="navbar-nav nav-sec">
             <li className="nav-item">
-              <a className="nav-link" href="/">Home</a>
+              <a className="nav-link" href="/home">Home</a>
             </li>
             {
               user ? <li className="nav-item">
@@ -50,7 +54,7 @@ function Navbar() {
           </ul>
         </div>
       </nav>
-
+<Toaster/>
     </div>
   )
 }

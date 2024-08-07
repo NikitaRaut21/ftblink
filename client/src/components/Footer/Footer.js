@@ -3,6 +3,7 @@ import "./Footer.css"
 import gmail from './gmail.png'
 import call from './call.png'
 import map from './map.png'
+import imglink from './link.png'
 
 function Footer() {
   return (
@@ -12,7 +13,7 @@ function Footer() {
           🔗Strong connections open doors to new opportunities
         </div>
         <div className="card-body card-bd">
-          <h5 className="card-title  ">url shortcut</h5>
+          <h5 className="card-title"><img src={imglink} className='quick'/> Quick links</h5>
           <p className="card-text">
             <div className='head'>
               <div  className='url-short'>
@@ -24,7 +25,7 @@ function Footer() {
               </div>
               <div >
                 <p className='link-dt'>
-                  <h5>quick links</h5>
+                  <h5> links</h5>
                   <a href='/home' className='link'>Home</a>
                   <a href='/login' className='link'>login</a>
                   <a href='/contact' className='link'>Contact</a>

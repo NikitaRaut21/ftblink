@@ -9,3 +9,9 @@
 .logbtn{
     cursor: pointer;
 }
+@media screen and (max-width: 500px){
+    .ham-nav{
+        margin-left: -180px;
+        
+    }
+}
