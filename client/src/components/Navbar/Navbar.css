@@ -1,6 +1,10 @@
 .nav-sec{
     margin-left:  auto;
     margin-right: 60px;
+ 
+}
+.link-img{
+    height: 25px;
 }
 .logbtn{
     cursor: pointer;

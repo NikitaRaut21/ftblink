@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import linkimg  from './link.png'
 
 import './Navbar.css'
 import toast, { Toaster } from 'react-hot-toast'
@@ -21,7 +22,7 @@ function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg shadow p-3 mb-5 bg-white rounded  ">
-        <a className="navbar-brand" href="#">🖇️Quick link</a>
+        <a className="navbar-brand" href="#"><img src={linkimg} className='link-img'/>Quick links</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

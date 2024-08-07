@@ -1,5 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Fredoka:wght@300..700&family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
 .main-link-container{
     display: flex;
     justify-content: space-around;
@@ -10,7 +15,7 @@ max-height: 500px;
  margin: 0;
   width: 600px;
     padding: 10px;
-    background-color: #f4c8f7;
+    background-color: #ead4ec;
     overflow-y: scroll;
     box-shadow: 0 0 0 2px rgba(0,0,0, 0.5)
    
@@ -35,11 +40,12 @@ max-height: 500px;
    box-shadow:1px 3px 10px 0 rgba(0,0,0, 0.2) ;
 }
 .url-form{
+   
     margin-top: 15px;
     border-radius: 5px;
     width: 600px;
     padding: 10px;
-    background-color: #f4c8f7;
+    background-color: #ead4ec;
    
 
 }
@@ -74,12 +80,12 @@ background-color: #97128c;
     }
     .url-form{
         width: 380px;
-        margin: 20px;
+        margin: 50px;
        
     }
     .my-link{
         width: 380px;
-        margin: 20px;
+        margin: 50px;
     }
 .input-url{
    width:350px;

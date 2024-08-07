@@ -3,9 +3,13 @@
     margin-left: -8px;
 }
 .map-container{
+    width: 600px;
+    height: 350px;
     box-shadow:1px 8px 9px 0 rgba(0,0,0, 0.5) ;
    
 }
+
+
 .suggestion{
     text-align: center;
 }
@@ -30,6 +34,10 @@
     .url-form{
         margin-top: 8%;
        
+    }
+    .map-container{
+        width: 380px;
+        margin: 50px;
     }
     .map{
         width:250px;

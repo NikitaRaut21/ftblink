@@ -6,16 +6,16 @@ import map from './map.png'
 
 function Footer() {
   return (
-    <div>
+    <div className='footer'>
       <div class="card">
         <div className="card-header title-footer">
           🔗Strong connections open doors to new opportunities
         </div>
         <div className="card-body card-bd">
-          <h5 className="card-title ">url shortcut</h5>
+          <h5 className="card-title  ">url shortcut</h5>
           <p className="card-text">
             <div className='head'>
-              <div >
+              <div  className='url-short'>
                 <ul>
                   <li>Strong connections lead to greater collaboration and success.</li>
                   <li>Building links enhances personal and professional development.</li>
@@ -27,7 +27,7 @@ function Footer() {
                   <h5>quick links</h5>
                   <a href='/home' className='link'>Home</a>
                   <a href='/login' className='link'>login</a>
-                  <a href='/login' className='link'>Contact</a>
+                  <a href='/contact' className='link'>Contact</a>
                 </p>
 
               </div>
