@@ -66,3 +66,18 @@ background-color: #97128c;
 .btn-link:hover{
     box-shadow: 0 0 0 2px rgba(0,0,0, 0.2)
 }
+@media screen and (max-width: 600px){
+    .main-link-container{
+        display: flex;
+       flex-direction: column;
+       
+    }
+    
+    .link-container{
+        margin-bottom: 20px;
+    }
+    .input-url{
+   width:500px;
+  
+    }
+}
