@@ -1,12 +1,14 @@
 .ft{
     width: 100%;
+    
 }
 .title-footer{
     text-align: center;
     font-size: 17px;
 }
 .card-bd{
-    margin-left: 30px;
+  
+    background-color:#ea9bf3 ;
 }
 .quick{
     height: 25px;

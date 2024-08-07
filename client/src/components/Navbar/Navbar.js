@@ -25,14 +25,14 @@ function Navbar() {
   }, [])
   return (
     <div>
-      <nav className="navbar navbar-expand-lg shadow p-3 mb-5 bg-white rounded  ">
+      <nav className="navbar navbar-expand-lg shadow p-3 mb-5  rounded  navbar-main">
         <a className="navbar-brand" href="#"><img src={link} className='link-img'/>Quick links</a>
         <button className="navbar-toggler" onClick={toggleMenu} type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className={`collapse navbar-collapse nav-ham ${isOpen ? 'show' : ''}`} id="navbarNav">
           <ul className="navbar-nav nav-sec">
-            <li className="nav-item">
+            <li className="nav-item item">
               <a className="nav-link" href="/home">Home</a>
             </li>
             {

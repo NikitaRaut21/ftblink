@@ -1,11 +1,17 @@
+.navbar-main{
+    background-color:#ea9bf3 ;
+}
+
 .nav-sec{
     margin-left:  auto;
     margin-right: 60px;
+   
  
 }
 .link-img{
     height: 25px;
 }
+
 .logbtn{
     cursor: pointer;
 }

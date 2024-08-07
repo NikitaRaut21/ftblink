@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Project-Name: FTB Links🔗
+---
+# Project-Title:  Quick Links
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
+Welcome to FTB Link APP Project . 
+** Quick Links** Shortened links are easier to share on social media, in text messages, or in any format where space is limited.
 
-## Available Scripts
+In a URL shortener project, the backend handles the creation, storage, and redirection of shortened links, while the frontend provides a user interface for generating and managing these links.
 
-In the project directory, you can run:
+---
+## Features
+1. Converts long URLs into shorter, more manageable links
+2.  Allows users to create custom, easy-to-remember short links
+3.  Provides tracking data on link performance
+4.  Supports custom domain names for branded short links
+5.  Redirects users to the original URL when the short link is clicked.
+---
+### Home Page
+![Home Page](./weboutput.png)
 
-### `npm start`
+## How to Contribute 💻
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+We welcome contributions from the community to help us expand and improve this handbook if you would like to contribute follow the steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Fork the repository to your GitHub account.
+2. Make your changes ,add new content or fix the existing issues.
+3. Open pull request in this repository.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributors
+<a href="https://github.com/NikitaRaut21/ftblink/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=NikitaRaut21/ftblink" />
+</a>
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with [contrib.rocks](https://contrib.rocks).
