@@ -72,14 +72,16 @@ background-color: #97128c;
        flex-direction: column;
        
     }
+    .url-form{
+        width: 380px;
+        margin: 20px;
+       
+    }
     .my-link{
-        width: 450;
+        width: 380px;
+        margin: 20px;
     }
-    
-    .link-container{
-        margin-bottom: 20px;
-    }
-    .input-url{
+.input-url{
    width:350px;
   
     }
