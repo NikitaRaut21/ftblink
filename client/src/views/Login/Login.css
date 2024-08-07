@@ -29,8 +29,7 @@
 .btn-sub{
     display: block;
     margin: 10px auto;
-   
-  padding:8px 15px ;
+   padding:8px 15px ;
   border-radius: 50px;
   cursor: pointer;
   border: none;
@@ -47,4 +46,14 @@ background-color: #97128c;
     font-size: 19px;
     text-decoration: none;
   }
+  @media screen and (max-width: 500px){
+  .form-container{
+    width: 380px;
+    
+  }
+  .inputurl{
+    width: 370px;
+  }
+  }
+  
  

@@ -22,7 +22,7 @@
     background-color: rgb(187, 180, 180);
    margin-left: 100px;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
     .contact-container{
         display: flex;
         flex-direction: column;
@@ -30,5 +30,9 @@
     .url-form{
         margin-top: 8%;
        
+    }
+    .map{
+        width:250px;
+      
     }
 }

@@ -41,8 +41,9 @@ function Login() {
 
       <div>
         <Navbar/>
+       
         <form className='form-container'>
-          <h1 className='title'>Login</h1>
+          <h1 className='title'>Login🖊️</h1>
 
           <div className="form-group input">
             <label For="exampleInputEmail1">Email address</label>

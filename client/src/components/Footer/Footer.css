@@ -29,7 +29,17 @@
     text-decoration: none;
     color: #0a0a0a;
 }
-@media screen and (max-width: 600px){
-    
+@media screen and (max-width: 500px){
+  .contact-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact{
+   margin-left: -100px;
+   margin-top: 40px;
+  }
+  .card{
+    margin: 25px;
+  }
 }
 
