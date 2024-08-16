@@ -2,6 +2,8 @@ import React from 'react'
 import "./LinkCard.css"
 import imgview from "./views.png"
 
+import QRCode from 'react-qr-code'
+
 function LinkCard({title,target,slug,views,createdAt}) {
   const shortUrl=`${process.env.REACT_APP_API_KEY}/${slug}`
 
@@ -25,6 +27,7 @@ function LinkCard({title,target,slug,views,createdAt}) {
    <span className='link-card-views-text'>
     {views > 0 ? `${views} people visit this url` : 'share this link'}
    </span>
+   {(<QRCode value={`${process.env.REACT_APP_API_KEY}/${slug}`} size={45} className='qr'/>)}
    <p  className='link-card-title-cre'>{new Date (createdAt).toLocaleString()}</p>
     </div>
   )
